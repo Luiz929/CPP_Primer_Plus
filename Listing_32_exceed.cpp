@@ -10,7 +10,7 @@ int main()
 
 	cout << "Sam has " << sam << " dollars and Sue has " << sue;
 	cout << " dollars deposited." << endl
-		<< "Add $1 to each account." << endl << "Now ";
+             << "Add $1 to each account." << endl << "Now ";
 
 	sam = sam + 1;
 	sue = sue + 1;
