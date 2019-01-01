@@ -26,6 +26,7 @@ char* getname()
 	cin >> temp;
 	char* pn = new char[strlen(temp) + 1];
 	strcpy(pn, temp);
+	//cout << temp << " at " << (int*)temp << "\n";
 	//cout << pn << " at " << (int*)pn << "\n";
 	return pn;
 }
